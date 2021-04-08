@@ -81,9 +81,4 @@ public class Part03StepVerifier {
 				.expectNextCount(3600)
 				.verifyComplete();
 	}
-
-	private void fail() {
-		throw new AssertionError("workshop not implemented");
-	}
-
 }
